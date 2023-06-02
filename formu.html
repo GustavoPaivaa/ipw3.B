@@ -1,12 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <style>
+ 
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #338b95;
+      margin: 0;
+      padding: 20px;
+    }
+    form {
+      background-color: #f2f2f2;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    input[type="text"], select {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+    }
+
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
 </head>
-<body>
+  </style>
+</head>
+<body><center><h1> Preencha com seus dados.</h1>
     <form>
         <fieldset>
        <legend>Dados Pessoais</legend>
@@ -16,30 +47,32 @@
         </div>
     </fieldset>
     <fieldset>
-        <legend>irineu</legend>
+        <legend>Dados Profissionais</legend>
         <div>
             <label>Profissão</label><input type="text" name="Profissão"/>
             <label>Empresa</label><input type="text" name="Empresa"/>
         </div>
     </fieldset>
     <fieldset> 
-        <legend>Passa o whats</legend>   
+        <legend>Dados de Endereço</legend>   
         <div>
-            <label>Endereço</label><input type="text" name="Endereço"/>
-            <label>Número</label><input type="text" name="Número"/>
-            <label>Bairro</label><input type="text" name="Bairro"/>
+            <label>Estado</label><input type="text" name="Estado"/>
             <label>Cidade</label><input type="text" name="Cidade"/>
+            <label>Bairro</label><input type="text" name="Bairro"/>
+            <label>Rua</label><input type="text" name="Rua"/>
+            <label>Número</label><input type="text" name="Número"/>
     </div>
     </fieldset>
     <fieldset>
-        <legend>aaaaaaaaaaaa</legend>
+        <legend>Dados Sociais</legend>
     <div>
         <label>Instagram</label><input type="text" name="Instagram"/>
         <label>Github</label><input type="text" name="Github"/>
     </div>    
-    </fieldset>
+    </fieldset><br>
+    <input type="submit" value="Enviar">
+</form></center>
 
-    </form>
-    
 </body>
 </html>
+
